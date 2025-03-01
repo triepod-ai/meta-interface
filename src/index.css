@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+.code-output {
+  max-height: 500px;
+  overflow-y: auto;
+}
